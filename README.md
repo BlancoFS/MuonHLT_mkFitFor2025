@@ -13,8 +13,8 @@ git cms-init
 git cms-merge-topic mmasciov:142X_hltPixelAutoTuning
 git cms-merge-topic mmasciov:142X_mkFitForHLT_stripSpeedup
 git clone https://github.com/cms-data/RecoTracker-MkFit.git RecoTracker/MkFit/data
-git clone -b Run2024 https://github.com/BlancoFS/MuonHLT_mkFitFor2025.git
-cp customizeHLTIter0ToMkFit.py RecoTracker/MkFit/python/
+git clone https://github.com/BlancoFS/MuonHLT_mkFitFor2025.git
+cp MuonHLT_mkFitFor2025/customizeHLTIter0ToMkFit.py RecoTracker/MkFit/python/
 
 scram b -j 8
 ```
